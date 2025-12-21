@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div id="sideBar">
+            <img src="image/propic.jpg" alt="Profile Picture" width="150">
+            <h3>Cheng Chun Yin (Steven)</h3>
+
+
+            <div class="emailButton">
+               
+
+
+                <button class="emailcopy" onclick="copyEmail()">
+                    <span id="copyText">My Email <i class="fas fa-copy"></i></span>
+
+                </button>
+
+
+            </div>
+
+
+
+
+            <div class="ContactButton">
+                <div>
+                    <a href="https://github.com/STEVEn0183" target="_blank">
+                        <button>
+                            <img src="icon/icons8-github.svg" alt="github_icon" width="25">
+                        </button>
+                    </a>
+                </div>
+
+
+
+                <div>
+                    <a href="https://www.linkedin.com/in/cheng-steven-719a2730a" target="_blank">
+                        <button>
+                            <img src="icon/icons8-linkedin.svg" alt="LinkedIn" width="25">
+                        </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/stevench111/" target="_blank">
+                        <button>
+                            <img src="icon/instagram-2016-logo-svgrepo-com.svg" alt="Instagram" width="25">
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <ul class="sidebarMenu" style="list-style: none;">
+                <li>
+                    <a href="#toptitle" class="sideItem" style="text-decoration:none">
+                        <img src="icon/home.png" alt="" width="24px">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about-me" class="sideItem" style="text-decoration:none">
+                        <img src="icon/user.png" alt="" width="24px">
+                        <span>About Me</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills" class="sideItem" style="text-decoration:none">
+                        <img src="icon/coding.png" alt="" width="24px">
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#side-project" class="sideItem" style="text-decoration:none">
+                        <img src="icon/document.png" alt="" width="24px">
+                        <span>Side Project</span>
+                    </a>
+                </li>
+            </ul>
+
+    </nav>
+
+    <main>
+
+        <div class="container" id="toptitle">
+            <h1> Hi! My name is Cheng Chun Yin(Steven)! </h1>
+            <p>Welcome to my website. Feel free to explore my projects and get in touch!</p>
+
+        </div>
+
+        <div class="container" id="about-me">
+            <h1>About me</h1>
+            <div>
+                <h2>Work Experience</h2>
+                <div class="experience_education">
+                    <p>Family Business - Fisherman</p>
+                    <p>2024 – Present</p>
+                </div>
+                <div class="experience_education">
+                    <p>Working Holiday (Japan)</p>
+                    <p>2023 – 2024</p>
+                </div>
+                <div class="experience_education">
+                    <p>Telekomunikasi Indonesia International (HongKong) Limited : <br>NOC Operator</p>
+                    <p>2021 – 2023</p>
+                </div>
+                <div class="experience_education">
+                    <p>Rapiscan Systems Hong Kong Limited : <br>Field Service Engineer</p>
+                    <p>2020 – 2021</p>
+                </div>
+            </div>
+            <div>
+                <h2>Education</h2>
+                <div class="experience_education">
+                    <p>Royal Melbourne Institute of Technology
+                        (RMIT University) – Bachelor of Engineering (Electrical Engineering)
+                        (Honours)</p>
+                    <p>2017 – 2019</p>
+                </div>
+                <div class="experience_education">
+                    <p>VTC – Higher Diploma in Electrical Engineering</p>
+                    <p>2014 – 2016</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="skills">
+            <h1>My Skills</h1>
+            <ul class="skillsList">
+                <li><img src="icon/java-script.png" alt="JavaScript" width="30"> JavaScript</li>
+                <li><img src="icon/html5.png" alt="HTML5" width="30"> HTML5</li>
+                <li><img src="icon/css-3.png" alt="CSS3" width="30"> CSS3</li>
+                <li><img src="icon/git.png" alt="Git" width="30"> Git</li>
+                <li><img src="icon/Ruby_logo.svg" alt="Ruby" width="30"> Ruby</li>
+                <li><img src="icon/nodejs-icon.svg" alt="nodejs" width="30">Node.js</li>
+                <li><img src="icon/figma-icon.svg" alt="Figma" width="20">Figma</li>
+            </ul>
+        </div>
+
+
+
+        <div class="container" id="side-project">
+            <h1>Side Projects</h1>
+        </div>
+
+
+        <div class="mobile-bottom-nav">
+
+            <button class="mobile-nav-item contact-toggle-mobile" onclick="copyEmail(); toggleMobileContact()">
+                <img src="icon/communicate.png" alt="">
+                <span>Contact</span>
+            </button>
+
+            <a href="#toptitle" class="mobile-nav-item">
+                <img src="icon/home.png" alt="Home" width="24">
+                <span>Home</span>
+            </a>
+            <a href="#about-me" class="mobile-nav-item">
+                <img src="icon/user.png" alt="About Me" width="24">
+                <span>About</span>
+            </a>
+            <a href="#skills" class="mobile-nav-item">
+                <img src="icon/coding.png" alt="Skills" width="24">
+                <span>Skills</span>
+            </a>
+            <a href="#side-project" class="mobile-nav-item">
+                <img src="icon/document.png" alt="Projects" width="24">
+                <span>Projects</span>
+            </a>
+        </div>
+
+
+        <div class="mobile-contact-popup" id="mobileContactPopup">
+            <a href="#" class="contact-item copy-email-item"
+                onclick="copyEmail(); toggleMobileContact(); return false;">
+                <i class="fas fa-envelope"></i> Copy Email
+            </a>
+            <a href="https://github.com/STEVEn0183" target="_blank" class="contact-item">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/cheng-steven-719a2730a" target="_blank" class="contact-item">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://www.instagram.com/stevench111/" target="_blank" class="contact-item">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <button class="contact-close-btn" onclick="toggleMobileContact()">✕ Close</button>
+        </div>
+
+    </main>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src=" scripts.js"></script>
+</body>
+
+</html>
