@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 :root {
-  --base-clr: #2c1f14;
-  --line-clr: #8b5a2b;
-  --hover-clr: #a67c52;
-  --text-clr: #f5e6d3;
-  --accent-clr: #d4a574;
-  --secondary-text-clr: #d9bca8;
+  --base-clr: #0A1628;
+  --line-clr: #3A506B;
+  --hover-clr: #5BC0BE;
+  --text-clr: #F4E4BC;
+  --accent-clr: #B8860B;
+  --secondary-text-clr: #E8D0A9;
 }
 
 html {
